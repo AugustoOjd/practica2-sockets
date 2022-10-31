@@ -9,12 +9,13 @@ class Usuario {
     }
     
 
-    agregarPersona( id, nombre){
+    agregarPersona( id, nombre, sala){
 
 
         let persona = {
             id, 
-            nombre
+            nombre,
+            sala
         }
 
         this.personas.push(persona)
